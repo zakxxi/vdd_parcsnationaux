@@ -1,0 +1,150 @@
+{
+  "vm": {
+    "ip": "192.168.21.21",
+    "memory": "1024",
+    "synced_folders": [
+      {
+        "host_path": "data/",
+        "guest_path": "/var/www",
+        "type": "nfs"
+      }
+    ],
+    "forwarded_ports": []
+  },
+  "vdd": {
+    "sites": {
+      "calanques": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "calanques",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "calanques-parcnational.dev",
+          "alias": ["www.calanques-parcnational.dev"]
+        }
+      },
+      "cevennes": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "cevennes",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "cevennes-parcnational.dev",
+          "alias": ["www.cevennes-parcnational.dev"]
+        }
+      },
+      "ecrins": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "ecrins",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "ecrins-parcnational.dev",
+          "alias": ["www.ecrins-parcnational.dev"]
+        }
+      },
+      "guadeloupe": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "guadeloupe",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "guadeloupe-parcnational.dev",
+          "alias": ["www.guadeloupe-parcnational.dev"]
+        }
+      },
+      "mercantour": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "mercantour",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "mercantour.dev",
+          "alias": ["www.mercantour.dev"]
+        }
+      },
+      "guyane": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "parc-amazonien-guyane",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "parc-amazonien-guyane.dev",
+          "alias": ["www.parc-amazonien-guyane.dev"]
+        }
+      },
+      "pyrenees": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "parc-pyrenees",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "parc-pyrenees.dev",
+          "alias": ["www.parc-pyrenees.dev"]
+        }
+      },
+      "parcsnationaux": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "parcsnationaux",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "parcsnationaux.dev",
+          "alias": ["www.parcsnationaux.dev"]
+        }
+      },
+      "portcros": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "portcrosparcnational",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "portcrosparcnational.dev",
+          "alias": ["www.portcrosparcnational.dev"]
+        }
+      },
+      "reunion": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "reunion-parcnational",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "reunion-parcnational.dev",
+          "alias": ["www.reunion-parcnational.dev"]
+        }
+      },
+      "vanoise": {
+        "account_name": "admin",
+        "account_pass": "admin",
+        "account_mail": "admin@example.com",
+        "site_name": "vanoise-parcnational",
+        "site_mail": "admin@example.com",
+        "vhost": {
+          "document_root": "w",
+          "url": "vanoise-parcnational.dev",
+          "alias": ["www.vanoise-parcnational.dev"]
+        }
+      }
+    }
+  }
+}
