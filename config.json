@@ -6,7 +6,7 @@
       {
         "host_path": "data/",
         "guest_path": "/var/www",
-        "type": "nfs"
+        "type": "default"
       }
     ],
     "forwarded_ports": []
@@ -20,7 +20,7 @@
         "site_name": "calanques",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "calanques-parcnational.dev",
           "alias": ["www.calanques-parcnational.dev"]
         }
@@ -32,7 +32,7 @@
         "site_name": "cevennes",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "cevennes-parcnational.dev",
           "alias": ["www.cevennes-parcnational.dev"]
         }
@@ -44,7 +44,7 @@
         "site_name": "ecrins",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "ecrins-parcnational.dev",
           "alias": ["www.ecrins-parcnational.dev"]
         }
@@ -56,7 +56,7 @@
         "site_name": "guadeloupe",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "guadeloupe-parcnational.dev",
           "alias": ["www.guadeloupe-parcnational.dev"]
         }
@@ -68,7 +68,7 @@
         "site_name": "mercantour",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "mercantour.dev",
           "alias": ["www.mercantour.dev"]
         }
@@ -80,7 +80,7 @@
         "site_name": "parc-amazonien-guyane",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "parc-amazonien-guyane.dev",
           "alias": ["www.parc-amazonien-guyane.dev"]
         }
@@ -92,7 +92,7 @@
         "site_name": "parc-pyrenees",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "parc-pyrenees.dev",
           "alias": ["www.parc-pyrenees.dev"]
         }
@@ -104,7 +104,7 @@
         "site_name": "parcsnationaux",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "parcsnationaux.dev",
           "alias": ["www.parcsnationaux.dev"]
         }
@@ -116,7 +116,7 @@
         "site_name": "portcrosparcnational",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "portcrosparcnational.dev",
           "alias": ["www.portcrosparcnational.dev"]
         }
@@ -128,7 +128,7 @@
         "site_name": "reunion-parcnational",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "reunion-parcnational.dev",
           "alias": ["www.reunion-parcnational.dev"]
         }
@@ -140,7 +140,7 @@
         "site_name": "vanoise-parcnational",
         "site_mail": "admin@example.com",
         "vhost": {
-          "document_root": "w",
+          "document_root": "pnf/www",
           "url": "vanoise-parcnational.dev",
           "alias": ["www.vanoise-parcnational.dev"]
         }
