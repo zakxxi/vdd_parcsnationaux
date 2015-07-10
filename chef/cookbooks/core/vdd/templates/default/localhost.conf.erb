@@ -15,11 +15,16 @@
       ServerName <%= defined?(site["vhost"]["url"]) ? site["vhost"]["url"] : index %>
       ServerAlias <%= defined?(site["vhost"]["alias"]) ? site["vhost"]["alias"].join(" ") : index %>
       ServerAdmin <%= site["account_mail"] %>
-      RewriteEngine On
+        <Directory /var/www/<%= defined?(site["vhost"]["document_root"]) ? site["vhost"]["document_root"] : index %>>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride
+                Require all granted
+                AuthType None
+                Satisfy Any
+        </Directory>
       ErrorLog /var/log/apache2/<%= index %>.error.log
       LogLevel warn
       CustomLog /var/log/apache2/<%= index %>.access.log combined
-      ServerSignature On
     </VirtualHost>
   <% end %>
 <%- end -%>
