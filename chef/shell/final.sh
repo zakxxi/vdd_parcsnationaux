@@ -7,23 +7,20 @@ echo "============================================================="
 echo "Install finished! Visit http://$VDD_IP in your browser." 
 echo "============================================================="
 
-# Prepare needed commands
-GIT=`which git`
-CD=`which cd`
-SH=`which sh`
+cd /var/www
 
-# Go to www
-$CD /var/www
+# Delete pnf/www folder
+rm -rf pnf
 
 # Clone git repository
-$GIT clone https://github.com/jabberwooki/pnf.git
-$CD pnf
+git clone https://github.com/jabberwooki/pnf.git
+cd pnf
 
 # Switch to develop branch
-$GIT checkout develop
+git checkout develop
 
 # Launch build script
-$SH scripts/build.sh
+sh scripts/build.sh
 
 echo "============================================================="
 echo "PNF BUILD OK"
