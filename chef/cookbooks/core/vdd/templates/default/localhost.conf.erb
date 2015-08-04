@@ -17,7 +17,7 @@
       ServerAdmin <%= site["account_mail"] %>
         <Directory /var/www/<%= defined?(site["vhost"]["document_root"]) ? site["vhost"]["document_root"] : index %>>
                 Options Indexes FollowSymLinks MultiViews
-                AllowOverride
+                AllowOverride All
                 Require all granted
                 AuthType None
                 Satisfy Any
